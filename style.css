@@ -99,7 +99,37 @@ section#about{
 }
 .image-section img{
 	width: 100%;
-	height: auto;
+	height: 525px;
+        border: black 1px solid;
+	border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 100px #099fff;
+  animation: animate1 10s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    -webkit-box-shadow: 0 0 50px 3px #C586C0,0 0 4px 2px #C586C0;
+            box-shadow: 0 0 50px 3px #C586C0,0 0 4px 2px #C586C0;
+  }
+  20% {
+    -webkit-box-shadow: 0 0 100px 3px #0ff,0 0 4px 2px #0ff;
+            box-shadow: 0 0 100px 3px #0ff,0 0 4px 2px #0ff;
+  }
+  40% {
+    -webkit-box-shadow: 0 0 50px 3px #0f0,0 0 4px 2px #0f0;
+            box-shadow: 0 0 50px 3px #0f0,0 0 4px 2px #0f0;
+  }
+  60% {
+    -webkit-box-shadow: 0 0 100px 3px #ffff01,0 0 4px 2px #ffff01;
+            box-shadow: 0 0 100px 3px #ffff01,0 0 4px 2px #ffff01;
+  }
+  80% {
+    -webkit-box-shadow: 0 0 50px 3px #f00,0 0 4px 2px #f00;
+            box-shadow: 0 0 50px 3px #f00,0 0 4px 2px #f00;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 100px 3px #C586C0,0 0 4px 2px #C586C0;
+            box-shadow: 0 0 100px 3px #C586C0,0 0 4px 2px #C586C0;
+  }
 }
 .content-section .title{
 	text-transform: uppercase;
