@@ -21,7 +21,7 @@ header{
 	background: #461d3dd0;
 	position: fixed;
 	padding: 0 20px;
-        z-index:99999;
+        z-index: 9;
 }
 header nav{
 	display: flex;
